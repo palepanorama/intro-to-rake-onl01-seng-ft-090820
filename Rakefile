@@ -1,4 +1,5 @@
 namespace :greeting do
+<<<<<<< HEAD
   desc 'outputs hello to the terminal'
     task :hello do
       puts "hello from Rake!"
@@ -29,3 +30,15 @@ namespace :greeting do
   task :console => :environment do 
     Pry.start 
   end 
+=======
+desc 'outputs hello to the terminal'
+  task :hello do
+    puts "hello from Rake!"
+  end
+ 
+  desc 'outputs hola to the terminal'
+  task :hola do
+    puts "hola de Rake!"
+  end
+end
+>>>>>>> fc68ffdb8f46d4c4e6599d50b17e54957bd50bd8
